@@ -85,6 +85,7 @@
   bottom: 5px;
   left: 5px; }
 .navbar {
+  position: fixed;
   display: none; }
 
 /* Larger than phone */
@@ -239,8 +240,9 @@
   height: 71rem;
   display: flex;
   justify-content: center;
+  padding-top: 6.5rem;
 }
-.four.columns {
+.five.columns {
   display: flex;
   justify-content: center;
 }
@@ -258,7 +260,7 @@
   margin: 0 auto;
   align-self: center;
 }
-.eight.columns {
+.seven.columns {
   display: flex;
   justify-content: center;
 }
@@ -287,6 +289,21 @@
 
 .navbar-link.home {
   margin-left: 35px;
+}
+
+.profile-picture img {
+  max-width: 330px;
+  width: 33%;
+  float: left;
+  border-radius: 1000px;
+}
+
+.skills {
+  margin: 3rem auto;
+}
+
+div#contact {
+  padding-bottom: 0px;
 }
 
 body {
